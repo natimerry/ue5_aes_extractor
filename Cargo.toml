@@ -1,6 +1,6 @@
 [package]
 name = "rivals_aes_dumper"
-version = "1.6.0"
+version = "2.0.0"
 edition = "2024"
 authors = ["natimerry"]
 
@@ -9,7 +9,7 @@ name = "rivals_aes_dumper"
 crate-type = ["cdylib"]
 
 [dependencies]
-libwinexploit = {git = "https://github.com/natimerry/libwinexploit", features = ["runtime"]}
+libwinexploit = {git = "https://github.com/natimerry/libwinexploit"}
 
 [profile.release]
 panic = "abort"
